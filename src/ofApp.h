@@ -11,7 +11,7 @@ public:
 	void update();
 	void draw();
 	
-	ofVideoGrabber cam;
+	ofVideoGrabber cam;     //give a defination of camera
 	ofxCv::ObjectFinder finder;
-	ofImage sunglasses;
+	ofImage sunglasses;     //load the image
 };
